@@ -5,7 +5,7 @@ export function Footer() {
 		<div
 			className="container-fluid bg-dark text-light d-flex justify-content-center align-bottom"
 			style={{ padding: "3rem" }}>
-			<span>Copyright @ Your Website 2021</span>
+			<span>Copyright @ Your Website 2022</span>
 		</div>
 	);
 }

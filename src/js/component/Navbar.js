@@ -3,7 +3,7 @@ import React from "react";
 //create your first component
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white justify-content-between">
+		<nav className="navbar navbar-expand navbar-light bg-light p-4">
 			<a className="navbar-brand" href="#">
 				Start Bootstrap
 			</a>

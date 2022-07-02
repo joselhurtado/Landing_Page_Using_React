@@ -7,11 +7,11 @@ import { Footer } from "./Footer.js";
 
 export function Home() {
 	return (
-		<div>
+		<div className="container-flex">
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
-				<div className="container-fluid row">
+				<div className="card-group mb-4">
 					<Card
 						title="This is a Card Test!"
 						text="Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -40,7 +40,7 @@ export function Home() {
                         culpa natus architecto."
 						footer="Find out more!"
 					/>
-				</div>
+					</div>
 			</div>
 			<Footer />
 		</div>

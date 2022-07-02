@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 
 export function Card(props) {
 	return (
-		<div className="card-group">
-			<div className="card m-2" style={{ minWidth: "18rem" }}>
+			<div className="card m-2" style={{ minWidth: "10rem" }}>
 				<img
 					className="card-img-top"
 					src="http://placehold.it/500x325.jpg"
@@ -20,12 +19,5 @@ export function Card(props) {
 					</a>
 				</div>
 			</div>
-		</div>
 	);
 }
-
-Card.propTypes = {
-	title: PropTypes.string,
-	text: PropTypes.string,
-	footer: PropTypes.string
-};
