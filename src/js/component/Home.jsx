@@ -42,7 +42,9 @@ export function Home() {
 					/>
 					</div>
 			</div>
+			<div className="fixed-bottom">
 			<Footer />
+			</div>
 		</div>
 	);
 };
