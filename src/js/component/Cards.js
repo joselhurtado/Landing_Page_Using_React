@@ -1,9 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export function Card() {
 	return (
-			<div className="card m-2" style={{ minWidth: "08rem" }}>
+			<div className="card m-2 text-center" style={{ maxWidth: "24rem" }}>
 				<img
 					className="card-img-top"
 					src="https://www.survivorsuk.org/wp-content/uploads/2017/01/no-image.jpg"

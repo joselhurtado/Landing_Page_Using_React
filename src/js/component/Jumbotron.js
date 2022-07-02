@@ -2,20 +2,17 @@ import React from "react";
 
 export function Jumbotron() {
 	return (
-		<div className="jumbotron bg-light p-5 mt-3 mb-3">
-			<h1 className="display-4">JUMBOTRON</h1>
-			<p className="lead">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt
-					odit vero qliquid similque quaerat nam nobis ilo aspernatur
-					vitae fugiat numquam repellat.
-			</p>
-			<hr className="my-4"></hr>
-			<p className="lead">
-			It uses utility classes for typography and spacing to space content out within the larger container.</p>
-				<a className="btn btn-primary btn-lg" href="#" role="button">
-					Call to action!
-				</a>
-		</div>
+<section className="py-4 text-center container-flex bg-primary text-light mb-3">
+    <div className="row py-lg-5">
+      <div className="col-lg-6 col-md-8 mx-auto">
+        <h1 className="fw-light"><strong>React Landing Page</strong></h1>
+        <p className="lead text-white">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" className="btn btn-danger my-2 m-2">Main call to action</a>
+          <a href="#" className="btn btn-light my-2 m-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
 	);
 }
