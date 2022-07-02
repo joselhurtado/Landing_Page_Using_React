@@ -1,6 +1,6 @@
 # Landing Page Using Bootstrap and React
 
-<img src="/workspace/Landing_Page_Using_React/src/img/Landing_Page_Using_React.png" />
+<img src="./src/img/Landing_Page_Using_React.png" />
 
 <p>
   <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
