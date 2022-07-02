@@ -9,9 +9,9 @@ export function Home() {
 	return (
 		<div className="container-flex">
 			<Navbar />
-			<div className="container">
+			<div className="container-lg">
 				<Jumbotron />
-				<div className="card-group mb-4">
+				<div className="card-group">
 					<Card
 						title="This is a Card Test!"
 						text="Lorem ipsum dolor sit amet, consectetur adipisicing
